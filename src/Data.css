@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple");
+@import url("https://fonts.googleapis.com/css?family=Rancho&effect=outline");
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+@layer base {
+    .font-outline-2 {
+      -webkit-text-stroke: 2px rgb(73, 107, 230);
+    }
+    .font-outline-4 {
+      -webkit-text-stroke: 4px rgb(41, 42, 43);
+    }
+     
+  }
